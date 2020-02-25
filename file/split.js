@@ -562,7 +562,8 @@ function selectTab(elem) {
 }
 
 function setTabZindex(TabElemList, selectTabNo) {
-    for (var tabElem of TabElemList) {
+    for (var i = 0; i < TabElemList.length; i++) {
+        var tabElem = TabElemList[i];
         var zindexVal = TabElemList.length - Math.abs(selectTabNo - i);
         tabElem.style.cssText += 'z-index: ' + zindexVal + ';';
         if (i != selectTabNo) tabElem.style.cssText += 'text-indent: 1000px;';
