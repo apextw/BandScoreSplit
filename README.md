@@ -43,5 +43,5 @@ BandScoreSplitは画像形式のバンドスコア(またはオーケストラ�
 File an issue:
 + https://github.com/Kitami/BandScoreSplit/issues/new
 
-Follow twitter: @kitami_hi
-+ https://twitter.com/kitami_hi
+Follow twitter: @KitamiHibiki
++ https://twitter.com/KitamiHibiki
